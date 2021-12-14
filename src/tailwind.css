@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #212121 !important;
+    text-decoration: underline !important;
+}
+
+.categories-list {
+    height: 100vh;
+}
